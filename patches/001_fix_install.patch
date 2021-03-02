@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 50a11e8..f0c1772 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -62,7 +62,7 @@ configure_file(
+ 
+ install(
+ 	FILES
+-		${CMAKE_BINARY_DIR}/uchardet.pc
++		${CMAKE_CURRENT_BINARY_DIR}/uchardet.pc
+ 	DESTINATION
+ 		${CMAKE_INSTALL_LIBDIR}/pkgconfig
+ )
